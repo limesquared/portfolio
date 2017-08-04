@@ -1,0 +1,138 @@
+.container {
+  position:relative;
+  text-align:center;
+}
+
+@font-face {
+  font-family:straw;
+  src:url(BendyStraw.ttf);
+  font-weight: bold;
+}
+
+#navbar {
+  list-style-position:none;
+  margin:0px;
+  padding:0px;
+  overflow:hidden;
+  background-color:#bc2444;
+  position:fixed;
+  top:0px;
+  width:100%;
+  z-index:10;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display:block;
+  padding:16px;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+}
+
+li a:hover:not(.active) {
+    background-color:#7a1329;
+}
+
+.active {
+  background-color:#B5E8D9;
+}
+
+/**Title**/
+h1 {
+  color:#BC2444;
+  font-family:straw;
+  position:absolute;
+  left:0;
+  top:35%;
+  width:100%;
+  text-align:center;
+  font-size:50px;
+}
+
+body {
+  background-image: url(pastelroses.jpg);
+  background-size:25%;
+  margin:0px;
+}
+
+#headerimage {
+  border-radius:15px;
+  border:2px solid white;
+  box-shadow:1px 2px 4px rgba(0,0,0,.5);
+  height:200px;
+  width:1000px;
+  margin-top:60px;
+}
+
+/**Subheadings**/
+h3 {
+  font-family:straw;
+  text-align:center;
+  text-decoration:underline;
+  color:white;
+}
+.biobox {
+  text-align:center;
+}
+
+#bio {
+  height:500px;
+  width:50%;
+  border-radius:5px;
+  padding:25px;
+  margin:25px;
+  font-size:20px;
+  font-family:Times;
+  color:white;
+  display: inline-block;
+  text-align:left;
+  background-color:rgba(188,36,68,0.9);
+  overflow:auto;
+}
+
+#funfacts {
+    list-style-type:square;
+    display:block;
+}
+
+/**bio button**/
+#button {
+  text-align:center;
+}
+
+button {
+  display:inline-block;
+  padding:10px 15px;
+  font-size:24px;
+  cursor:pointer;
+  text-align:center;
+  font-family:straw;
+  margin-bottom:50px;
+  color:white;
+  background-color:#72C745;
+  border:none;
+  border-radius:15px;
+  box-shadow:0 9px #3e7222;
+}
+
+button:hover {
+  background-color: #64af3b;
+}
+
+button:active {
+  background-color: #3b8216;
+  box-shadow: 0 5px #2e5619;
+  transform: translateY(4px);
+}
+
+#rabbits {
+  border-radius:8px;
+  position:relative;
+  width:250px;
+  margin:20px;
+  float:right;
+}
